@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 200px;
+    background-image: url("https://wallpaperaccess.com/full/796832.jpg");
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.name {
+    position: absolute;
+    left: 40%;
+    top: 15%;
+    color: #ffffff;
+}
+
+.disc {
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+
+.table_logo {
+    width: auto;
+    height: 20em;
+}
+
+.Android_logo,
+.SparkAR_logo,
+.Html_Css_logo,
+.Tensorflow_logo,
+.Cpp_logo,
+.JAVA_logo,
+.Numpy_logo,
+.Pandas_logo,
+.Python_logo {
+    width: auto;
+    height: 2em;
+    position: absolute;
+}
+
+.Android_logo {
+    left: 470px;
+    bottom: 170px;
+    height: 3em;
+}
+
+.SparkAR_logo {
+    left: 538px;
+    bottom: 170px;
+    height: 3em;
+}
+
+.JAVA_logo {
+    left: 596px;
+    bottom: 170px;
+    height: 3em;
+}
+
+.my_image,
+.Skill_Android,
+.Skill_SparkAR,
+.Skill_ML {
+    width: auto;
+    height: 20em;
+}
