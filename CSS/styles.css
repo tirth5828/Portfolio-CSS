@@ -5,26 +5,36 @@ body {
 
 .top-container {
     position: relative;
-    padding-top: 200px;
-    background-image: url("https://wallpaperaccess.com/full/796832.jpg");
+    padding-top: 0px;
+    background-image: url("https://i.pinimg.com/originals/ea/ec/0c/eaec0cf7eff86e3615c01bd34ecba7e3.jpg");
     background-color: #cccccc;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    height: 600px;
 }
 
 .name {
     position: absolute;
-    left: 40%;
-    top: 15%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    top: 0;
     color: #ffffff;
+    font-family: 'Sacramento', cursive;
+    font-size: 120px;
 }
 
 .disc {
     position: absolute;
-    left: 50%;
-    top: 30%;
+    left: 60%;
+    top: 25%;
+    font-size: 50px;
+    color: #9C3B00;
+    font-family: 'Permanent Marker', cursive;
 }
 
 .table_logo {
@@ -47,20 +57,23 @@ body {
 }
 
 .Android_logo {
-    left: 470px;
-    bottom: 170px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 185px;
     height: 3em;
 }
 
 .SparkAR_logo {
-    left: 538px;
-    bottom: 170px;
-    height: 3em;
+    left: 415px;
+    bottom: 264px;
+    height: 4em;
 }
 
-.JAVA_logo {
-    left: 596px;
-    bottom: 170px;
+.Python_logo {
+    left: 890px;
+    bottom: 219px;
     height: 3em;
 }
 
