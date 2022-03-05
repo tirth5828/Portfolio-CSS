@@ -3,6 +3,25 @@ body {
     text-align: center;
 }
 
+h2 {
+    color: #334352;
+}
+
+h3 {
+    color: #9C3B00;
+}
+
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted 2px #9C3B00;
+    border-bottom: none;
+    width: 10%;
+    margin: 100px auto;
+}
+
 .top-container {
     position: relative;
     padding-top: 0px;
@@ -13,6 +32,12 @@ body {
     background-size: cover;
     position: relative;
     height: 600px;
+}
+
+.middle-container {
+    background-color: #F6F6F6;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .name {
@@ -28,11 +53,15 @@ body {
     font-size: 120px;
 }
 
+.name:hover {
+    color: #C6CBE9;
+}
+
 .disc {
     position: absolute;
-    left: 60%;
+    left: 65%;
     top: 25%;
-    font-size: 50px;
+    font-size: 30px;
     color: #9C3B00;
     font-family: 'Permanent Marker', cursive;
 }
@@ -77,10 +106,94 @@ body {
     height: 3em;
 }
 
-.my_image,
-.Skill_Android,
-.Skill_SparkAR,
+.my_image {
+    width: 20em;
+}
+
+.Skill_Android {
+    height: auto;
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+
+.Skill_SparkAR {
+    height: auto;
+    width: 40%;
+    float: right;
+    margin-right: 10px;
+}
+
 .Skill_ML {
-    width: auto;
-    height: 20em;
+    height: auto;
+    width: 40%;
+    float: left;
+    margin-right: 10px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+.contact_me_message {
+    width: 30%;
+    margin: 40px auto 60px auto;
+}
+
+.btn {
+    background: #9C3B00;
+    background-image: -webkit-linear-gradient(top, #9C3B00, #334352);
+    background-image: -moz-linear-gradient(top, #9C3B00, #334352);
+    background-image: -ms-linear-gradient(top, #9C3B00, #334352);
+    background-image: -o-linear-gradient(top, #9C3B00, #334352);
+    background-image: linear-gradient(to bottom, #9C3B00, #334352);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.btn:hover {
+    background: #334352;
+    background-image: -webkit-linear-gradient(top, #334352, #9C3B00);
+    background-image: -moz-linear-gradient(top, #334352, #9C3B00);
+    background-image: -ms-linear-gradient(top, #334352, #9C3B00);
+    background-image: -o-linear-gradient(top, #334352, #9C3B00);
+    background-image: linear-gradient(to bottom, #334352, #9C3B00);
+    text-decoration: none;
+}
+
+.bottom-container {
+    background-color: #334352;
+    padding: 50px 0 20px 0;
+}
+
+.bottom-container>a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px 20px 10px 20px;
+}
+
+.bottom-container>a:hover {
+    color: #9C3B00;
+    text-decoration: none;
+    margin: 10px 20px 10px 20px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 12px;
+    padding: 20px 0 20px 0;
 }
